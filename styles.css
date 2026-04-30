@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f1722;
+  color: #f3f6fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.header h1 {
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+
+.header p {
+  margin: 0 0 18px;
+  color: #9fb2c7;
+}
+
+.status {
+  margin-bottom: 20px;
+  color: #b9c8d9;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 1px solid #2a3d56;
+  background: #0b1220;
+  padding: 14px 0;
+}
+
+.slider:before,
+.slider:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.slider:before {
+  left: 0;
+  background: linear-gradient(90deg, rgba(11, 18, 32, 1), rgba(11, 18, 32, 0));
+}
+
+.slider:after {
+  right: 0;
+  background: linear-gradient(270deg, rgba(11, 18, 32, 1), rgba(11, 18, 32, 0));
+}
+
+.slider-viewport {
+  overflow: hidden;
+  padding: 0 54px;
+  touch-action: pan-y;
+  cursor: grab;
+}
+
+.slider-viewport:active {
+  cursor: grabbing;
+}
+
+.slider-track {
+  display: flex;
+  gap: 14px;
+  padding: 0 16px;
+  will-change: transform;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 40px;
+  height: 56px;
+  border-radius: 10px;
+  border: 1px solid #2a3d56;
+  background: rgba(15, 23, 34, 0.9);
+  color: #f3f6fa;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.nav-btn--left {
+  left: 10px;
+}
+
+.nav-btn--right {
+  right: 10px;
+}
+
+.nav-btn:hover {
+  background: rgba(23, 36, 53, 0.95);
+}
+
+.nav-btn:active {
+  transform: translateY(-50%) scale(0.98);
+}
+
+.release-card {
+  background: #172435;
+  border: 1px solid #2a3d56;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+  min-width: 190px;
+  width: 190px;
+}
+
+.poster-wrap {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  background: #0a1018;
+}
+
+.poster-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-body {
+  padding: 12px;
+}
+
+.title {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.provider {
+  margin: 0;
+  font-size: 13px;
+  color: #7cc2ff;
+}
+
+@media (min-width: 1100px) {
+  .release-card {
+    min-width: 200px;
+    width: 200px;
+  }
+}
+
+.section-title {
+  margin: 22px 0 10px;
+  font-size: 18px;
+  color: #d7e2ef;
+}

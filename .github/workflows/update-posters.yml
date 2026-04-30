@@ -1,0 +1,43 @@
+name: Update posters JSON
+
+on:
+  schedule:
+    # Runs daily at 02:15 UTC. Change as needed.
+    - cron: "15 2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Generate JSON
+        run: |
+          python justwatch_india_trending.py
+          python all_time_favorites_ott.py
+
+      - name: Commit changes (if any)
+        run: |
+          if git diff --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git add ott_trending.json ott_popular.json
+          git commit -m "chore: auto-update posters JSON"
+          git push
+

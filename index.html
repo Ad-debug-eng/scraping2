@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>India Trending on OTT</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Trending in India</h1>
+      <p>Amazon Prime • SonyLIV • Zee5 • JioHotstar</p>
+    </header>
+
+    <section id="status" class="status">Loading updates...</section>
+    <div class="section-title">Trending now</div>
+    <section class="slider" aria-label="Trending slider">
+      <button class="nav-btn nav-btn--left" data-target="trending" aria-label="Previous">‹</button>
+      <div class="slider-viewport" id="trendingViewport">
+        <div id="track" class="slider-track"></div>
+      </div>
+      <button class="nav-btn nav-btn--right" data-target="trending" aria-label="Next">›</button>
+    </section>
+
+    <div class="section-title">Most popular (all-time favorites)</div>
+    <section class="slider" aria-label="Most popular slider">
+      <button class="nav-btn nav-btn--left" data-target="popular" aria-label="Previous">‹</button>
+      <div class="slider-viewport" id="popularViewport">
+        <div id="popularTrack" class="slider-track"></div>
+      </div>
+      <button class="nav-btn nav-btn--right" data-target="popular" aria-label="Next">›</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
