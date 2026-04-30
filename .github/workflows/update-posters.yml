@@ -2,8 +2,8 @@ name: Update posters JSON
 
 on:
   schedule:
-    # Runs daily at 02:15 UTC. Change as needed.
-    - cron: "15 2 * * *"
+    # Runs weekly on Sunday at 02:15 UTC. Change as needed.
+    - cron: "15 2 * * 0"
   workflow_dispatch: {}
 
 permissions:
