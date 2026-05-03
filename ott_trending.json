@@ -15,13 +15,13 @@
     "provider": "Amazon Prime"
   },
   {
-    "title": "Chiraiya",
-    "image": "https://images.justwatch.com/poster/343654126/s332/chiraiya.jpg",
-    "provider": "JioHotstar"
-  },
-  {
     "title": "Matka King",
     "image": "https://images.justwatch.com/poster/343807903/s332/matka-king.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "Sapio",
+    "image": "https://images.justwatch.com/poster/314225969/s332/sapio.jpg",
     "provider": "Amazon Prime"
   },
   {
@@ -30,9 +30,9 @@
     "provider": "Amazon Prime"
   },
   {
-    "title": "Sapio",
-    "image": "https://images.justwatch.com/poster/314225969/s332/sapio.jpg",
-    "provider": "Amazon Prime"
+    "title": "Chiraiya",
+    "image": "https://images.justwatch.com/poster/343654126/s332/chiraiya.jpg",
+    "provider": "JioHotstar"
   },
   {
     "title": "Dhurandhar",
