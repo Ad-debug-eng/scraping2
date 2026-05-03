@@ -33,16 +33,119 @@ jobs:
 
       - name: Commit changes (if any)
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet && git diff --cached --quiet; then
-            echo "No changes"
-            exit 0
-          fi
-          git add ott_trending.json ott_popular.json
-          if git diff --cached --quiet; then
-            echo "No staged changes for poster JSON files"
-            exit 0
-          fi
-          git commit -m "chore: auto-update posters JSON"
-          git push
+          # #region agent log
+          python << 'PY'
+          import json
+          import os
+          import subprocess
+          import sys
+          import time
+          from pathlib import Path
+
+          WS = Path(os.environ["GITHUB_WORKSPACE"])
+          LOG = WS / "debug-587ce5.log"
+
+          def dbg(hypothesis_id: str, message: str, **data):
+              entry = {
+                  "sessionId": "587ce5",
+                  "hypothesisId": hypothesis_id,
+                  "location": "update-posters.yml:Commit changes",
+                  "message": message,
+                  "data": data,
+                  "timestamp": int(time.time() * 1000),
+              }
+              line = json.dumps(entry)
+              LOG.parent.mkdir(parents=True, exist_ok=True)
+              with LOG.open("a", encoding="utf-8") as f:
+                  f.write(line + "\n")
+              print(line, flush=True)
+
+          def run_git(args: list[str], hypothesis_id: str, label: str) -> int:
+              p = subprocess.run(["git", *args], cwd=WS, capture_output=True, text=True)
+              dbg(
+                  hypothesis_id,
+                  label,
+                  exit=p.returncode,
+                  stdout_tail=(p.stdout or "")[-800:],
+                  stderr_tail=(p.stderr or "")[-800:],
+              )
+              return p.returncode
+
+          st = subprocess.run(
+              ["git", "status", "--porcelain"],
+              cwd=WS,
+              capture_output=True,
+              text=True,
+          )
+          dbg("H5", "initial git status", exit=st.returncode, porcelain=(st.stdout or "")[:2000])
+
+          br = subprocess.run(
+              ["git", "branch", "--show-current"],
+              cwd=WS,
+              capture_output=True,
+              text=True,
+          )
+          dbg("H5", "current branch", branch=(br.stdout or "").strip(), exit=br.returncode)
+
+          ru = subprocess.run(
+              ["git", "remote", "get-url", "origin"],
+              cwd=WS,
+              capture_output=True,
+              text=True,
+          )
+          dbg("H1", "remote origin (no secrets)", url=(ru.stdout or "").strip(), exit=ru.returncode)
+
+          for name in ("ott_trending.json", "ott_popular.json"):
+              pth = WS / name
+              dbg(
+                  "H5",
+                  f"poster file {name}",
+                  exists=pth.exists(),
+                  size_bytes=(pth.stat().st_size if pth.exists() else None),
+              )
+
+          subprocess.run(
+              ["git", "config", "user.name", "github-actions[bot]"],
+              cwd=WS,
+              check=True,
+          )
+          subprocess.run(
+              ["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"],
+              cwd=WS,
+              check=True,
+          )
+
+          a = run_git(["diff", "--quiet"], "H4", "git diff --quiet")
+          b = run_git(["diff", "--cached", "--quiet"], "H4", "git diff --cached --quiet")
+          if a == 0 and b == 0:
+              dbg("H5", "clean tree vs index; exit 0")
+              print("No changes")
+              sys.exit(0)
+
+          c = run_git(["add", "ott_trending.json", "ott_popular.json"], "H3", "git add poster JSON")
+          if c != 0:
+              dbg("H3", "git add failed", fatal_exit=c)
+              sys.exit(c)
+
+          d = run_git(["diff", "--cached", "--quiet"], "H4", "git diff --cached after add")
+          if d == 0:
+              dbg("H5", "nothing staged after add; exit 0")
+              print("No staged changes for poster JSON files")
+              sys.exit(0)
+
+          e = run_git(["commit", "-m", "chore: auto-update posters JSON"], "H2", "git commit")
+          if e != 0:
+              dbg("H2", "git commit failed", fatal_exit=e)
+              sys.exit(e)
+
+          f = run_git(["push"], "H1", "git push")
+          if f != 0:
+              dbg("H1", "git push failed", fatal_exit=f)
+              sys.exit(f)
+
+          dbg("H1", "git push ok")
+          sys.exit(0)
+          PY
+          echo "--- debug log file ---"
+          cat "${GITHUB_WORKSPACE}/debug-587ce5.log" || true
+          # #endregion agent log
