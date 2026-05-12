@@ -15,6 +15,7 @@ PROVIDER_PAGES: List[Tuple[str, str]] = [
     ("SonyLIV", "https://www.justwatch.com/in/provider/sony-liv"),
     ("JioHotstar", "https://www.justwatch.com/in/provider/hotstar"),
     ("Amazon Prime", "https://www.justwatch.com/in/provider/amazon-prime-video"),
+    ("Netflix", "https://www.justwatch.com/in/provider/netflix"),
 ]
 
 

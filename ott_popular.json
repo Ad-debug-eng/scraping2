@@ -20,6 +20,16 @@
     "provider": "Amazon Prime"
   },
   {
+    "title": "Sacred Games",
+    "image": "https://images.justwatch.com/poster/71314737/s332/sacred-games.jpg",
+    "provider": "Netflix"
+  },
+  {
+    "title": "Delhi Crime",
+    "image": "https://images.justwatch.com/poster/120343003/s332/delhi-crime.jpg",
+    "provider": "Netflix"
+  },
+  {
     "title": "Scam 1992: The Harshad Mehta Story",
     "image": "https://images.justwatch.com/poster/295771493/s332/scam-1992.jpg",
     "provider": "SonyLIV"
@@ -38,15 +48,5 @@
     "title": "Special Ops",
     "image": "https://images.justwatch.com/poster/331594845/s332/special-ops.jpg",
     "provider": "JioHotstar"
-  },
-  {
-    "title": "Friends",
-    "image": "https://images.justwatch.com/poster/300603462/s332/friends.jpg",
-    "provider": "JioHotstar"
-  },
-  {
-    "title": "The Kashmir Files",
-    "image": "https://images.justwatch.com/poster/277484037/s332/the-kashmir-files.jpg",
-    "provider": "Zee5"
   }
 ]

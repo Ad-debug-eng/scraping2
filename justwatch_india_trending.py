@@ -13,6 +13,7 @@ OUTPUT_FILE = "ott_trending.json"
 # Target OTTs for India trending.
 TARGET_PROVIDERS = {
     "Amazon Prime",
+    "Netflix",
     "SonyLIV",
     "Zee5",
     "JioHotstar",
@@ -24,6 +25,8 @@ def normalize_provider(text: str) -> str:
 
     if "amazon" in value and "prime" in value:
         return "Amazon Prime"
+    if "netflix" in value:
+        return "Netflix"
     if "sony" in value and ("liv" in value or "l i v" in value):
         return "SonyLIV"
     if "zee5" in value or "zee 5" in value:

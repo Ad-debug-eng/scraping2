@@ -17,6 +17,8 @@ FAVORITES: List[Tuple[str, str]] = [
     ("The Boys", "Amazon Prime"),
     ("Panchayat", "Amazon Prime"),
     ("Farzi", "Amazon Prime"),
+    ("Sacred Games", "Netflix"),
+    ("Delhi Crime", "Netflix"),
     ("Scam 1992", "SonyLIV"),
     ("Rocket Boys", "SonyLIV"),
     ("Asur", "JioHotstar"),
