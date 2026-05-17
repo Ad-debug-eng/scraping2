@@ -40,13 +40,13 @@
     "provider": "Amazon Prime"
   },
   {
-    "title": "Dhurandhar",
-    "image": "https://images.justwatch.com/poster/340126450/s332/dhurandhar-2025.jpg",
-    "provider": "Netflix"
-  },
-  {
     "title": "Perfect Crown",
     "image": "https://images.justwatch.com/poster/343798464/s332/perfect-crown.jpg",
     "provider": "Amazon Prime"
+  },
+  {
+    "title": "Glory",
+    "image": "https://images.justwatch.com/poster/344502625/s332/glory.jpg",
+    "provider": "Netflix"
   }
 ]
