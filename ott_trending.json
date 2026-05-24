@@ -5,9 +5,9 @@
     "provider": "Amazon Prime"
   },
   {
-    "title": "Euphoria",
-    "image": "https://images.justwatch.com/poster/343699808/s332/euphoria.jpg",
-    "provider": "JioHotstar"
+    "title": "Off Campus",
+    "image": "https://images.justwatch.com/poster/342690321/s332/off-campus.jpg",
+    "provider": "Amazon Prime"
   },
   {
     "title": "The Boys",
@@ -15,9 +15,9 @@
     "provider": "Amazon Prime"
   },
   {
-    "title": "Matka King",
-    "image": "https://images.justwatch.com/poster/343807903/s332/matka-king.jpg",
-    "provider": "Amazon Prime"
+    "title": "Euphoria",
+    "image": "https://images.justwatch.com/poster/343699808/s332/euphoria.jpg",
+    "provider": "JioHotstar"
   },
   {
     "title": "Sapio",
@@ -27,6 +27,11 @@
   {
     "title": "Sapne Vs Everyone",
     "image": "https://images.justwatch.com/poster/320038483/s332/sapne-vs-everyone.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "Matka King",
+    "image": "https://images.justwatch.com/poster/343807903/s332/matka-king.jpg",
     "provider": "Amazon Prime"
   },
   {
@@ -40,13 +45,8 @@
     "provider": "Amazon Prime"
   },
   {
-    "title": "Perfect Crown",
-    "image": "https://images.justwatch.com/poster/343798464/s332/perfect-crown.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
-    "title": "Glory",
-    "image": "https://images.justwatch.com/poster/344502625/s332/glory.jpg",
+    "title": "Dhurandhar: The Revenge",
+    "image": "https://images.justwatch.com/poster/343821815/s332/dhurandhar-the-revenge.jpg",
     "provider": "Netflix"
   }
 ]
