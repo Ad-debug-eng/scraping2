@@ -16,7 +16,7 @@
   },
   {
     "title": "Euphoria",
-    "image": "https://images.justwatch.com/poster/128560279/s332/euphoria.jpg",
+    "image": "https://images.justwatch.com/poster/343699808/s332/euphoria.jpg",
     "provider": "JioHotstar"
   },
   {
@@ -25,19 +25,14 @@
     "provider": "Amazon Prime"
   },
   {
-    "title": "Glory",
-    "image": "https://images.justwatch.com/poster/344502625/s332/glory.jpg",
-    "provider": "Netflix"
+    "title": "Spider-Noir",
+    "image": "https://images.justwatch.com/poster/345837805/s332/spider-noir.jpg",
+    "provider": "Amazon Prime"
   },
   {
-    "title": "If Wishes Could Kill",
-    "image": "https://images.justwatch.com/poster/343834605/s332/wish-your-death.jpg",
-    "provider": "Netflix"
-  },
-  {
-    "title": "Dhurandhar",
-    "image": "https://images.justwatch.com/poster/340126450/s332/dhurandhar-2025.jpg",
-    "provider": "Netflix"
+    "title": "Perfect Crown",
+    "image": "https://images.justwatch.com/poster/345822067/s332/perfect-crown.jpg",
+    "provider": "JioHotstar"
   },
   {
     "title": "Game of Thrones",
@@ -45,8 +40,13 @@
     "provider": "JioHotstar"
   },
   {
-    "title": "Matka King",
-    "image": "https://images.justwatch.com/poster/343807903/s332/matka-king.jpg",
-    "provider": "Amazon Prime"
+    "title": "The WONDERfools",
+    "image": "https://images.justwatch.com/poster/345787131/s332/the-wonderfools.jpg",
+    "provider": "Netflix"
+  },
+  {
+    "title": "Glory",
+    "image": "https://images.justwatch.com/poster/344502625/s332/glory.jpg",
+    "provider": "Netflix"
   }
 ]
