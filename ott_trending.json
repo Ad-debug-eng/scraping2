@@ -11,17 +11,17 @@
   },
   {
     "title": "The Boys",
-    "image": "https://images.justwatch.com/poster/343114850/s332/the-boys.jpg",
+    "image": "https://images.justwatch.com/poster/318597086/s332/the-boys.jpg",
     "provider": "Amazon Prime"
   },
   {
     "title": "Euphoria",
-    "image": "https://images.justwatch.com/poster/343699808/s332/euphoria.jpg",
+    "image": "https://images.justwatch.com/poster/128560279/s332/euphoria.jpg",
     "provider": "JioHotstar"
   },
   {
-    "title": "Sapne Vs Everyone",
-    "image": "https://images.justwatch.com/poster/320038483/s332/sapne-vs-everyone.jpg",
+    "title": "Sapio",
+    "image": "https://images.justwatch.com/poster/314225969/s332/sapio.jpg",
     "provider": "Amazon Prime"
   },
   {
@@ -30,14 +30,9 @@
     "provider": "Amazon Prime"
   },
   {
-    "title": "Perfect Crown",
-    "image": "https://images.justwatch.com/poster/345822067/s332/perfect-crown.jpg",
-    "provider": "JioHotstar"
-  },
-  {
-    "title": "Game of Thrones",
-    "image": "https://images.justwatch.com/poster/297859466/s332/game-of-thrones.jpg",
-    "provider": "JioHotstar"
+    "title": "Teach You a Lesson",
+    "image": "https://images.justwatch.com/poster/345857668/s332/teach-you-a-lesson.jpg",
+    "provider": "Netflix"
   },
   {
     "title": "The WONDERfools",
@@ -45,8 +40,13 @@
     "provider": "Netflix"
   },
   {
-    "title": "Glory",
-    "image": "https://images.justwatch.com/poster/344502625/s332/glory.jpg",
-    "provider": "Netflix"
+    "title": "Dhurandhar The Revenge",
+    "image": "https://images.justwatch.com/poster/344235396/s332/dhurandhar-the-revenge.jpg",
+    "provider": "JioHotstar"
+  },
+  {
+    "title": "Sapne Vs Everyone",
+    "image": "https://images.justwatch.com/poster/320038483/s332/sapne-vs-everyone.jpg",
+    "provider": "Amazon Prime"
   }
 ]
