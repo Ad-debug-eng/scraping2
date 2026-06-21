@@ -1,52 +1,52 @@
 [
   {
     "title": "Off Campus",
-    "image": "https://images.justwatch.com/poster/342690321/s332/off-campus.jpg",
+    "image": "https://images.justwatch.com/poster/342690321/s166/off-campus.jpg",
     "provider": "Amazon Prime"
   },
   {
     "title": "FROM",
-    "image": "https://images.justwatch.com/poster/344518661/s332/from.jpg",
+    "image": "https://images.justwatch.com/poster/344518661/s166/from.jpg",
     "provider": "Amazon Prime"
   },
   {
-    "title": "The Boys",
-    "image": "https://images.justwatch.com/poster/318597086/s332/the-boys.jpg",
+    "title": "Raakh",
+    "image": "https://images.justwatch.com/poster/334999390/s166/raakh.jpg",
     "provider": "Amazon Prime"
   },
   {
     "title": "Euphoria",
-    "image": "https://images.justwatch.com/poster/128560279/s332/euphoria.jpg",
+    "image": "https://images.justwatch.com/poster/343699808/s166/euphoria.jpg",
     "provider": "JioHotstar"
-  },
-  {
-    "title": "Sapio",
-    "image": "https://images.justwatch.com/poster/314225969/s332/sapio.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
-    "title": "Spider-Noir",
-    "image": "https://images.justwatch.com/poster/345837805/s332/spider-noir.jpg",
-    "provider": "Amazon Prime"
   },
   {
     "title": "Teach You a Lesson",
-    "image": "https://images.justwatch.com/poster/345857668/s332/teach-you-a-lesson.jpg",
+    "image": "https://images.justwatch.com/poster/345857668/s166/teach-you-a-lesson.jpg",
     "provider": "Netflix"
+  },
+  {
+    "title": "Spider-Noir",
+    "image": "https://images.justwatch.com/poster/345837805/s166/spider-noir.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "Sapio",
+    "image": "https://images.justwatch.com/poster/314225969/s166/sapio.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "The Boys",
+    "image": "https://images.justwatch.com/poster/318597086/s166/the-boys.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "Gullak",
+    "image": "https://images.justwatch.com/poster/138249201/s166/gullak.jpg",
+    "provider": "SonyLIV"
   },
   {
     "title": "The WONDERfools",
-    "image": "https://images.justwatch.com/poster/345787131/s332/the-wonderfools.jpg",
+    "image": "https://images.justwatch.com/poster/345787131/s166/the-wonderfools.jpg",
     "provider": "Netflix"
-  },
-  {
-    "title": "Dhurandhar The Revenge",
-    "image": "https://images.justwatch.com/poster/344235396/s332/dhurandhar-the-revenge.jpg",
-    "provider": "JioHotstar"
-  },
-  {
-    "title": "Sapne Vs Everyone",
-    "image": "https://images.justwatch.com/poster/320038483/s332/sapne-vs-everyone.jpg",
-    "provider": "Amazon Prime"
   }
 ]
