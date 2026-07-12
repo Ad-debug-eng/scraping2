@@ -15,11 +15,6 @@
     "provider": "Amazon Prime"
   },
   {
-    "title": "Farzi",
-    "image": "https://images.justwatch.com/poster/321787852/s166/farzi.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
     "title": "Sacred Games",
     "image": "https://images.justwatch.com/poster/71314737/s166/sacred-games.jpg",
     "provider": "Netflix"
@@ -47,6 +42,11 @@
   {
     "title": "Special Ops",
     "image": "https://images.justwatch.com/poster/331594845/s166/special-ops.jpg",
+    "provider": "JioHotstar"
+  },
+  {
+    "title": "Friends",
+    "image": "https://images.justwatch.com/poster/320954385/s166/friends.jpg",
     "provider": "JioHotstar"
   }
 ]
