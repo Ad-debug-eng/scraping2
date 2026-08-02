@@ -5,8 +5,8 @@
     "provider": "JioHotstar"
   },
   {
-    "title": "FROM",
-    "image": "https://images.justwatch.com/poster/344518661/s332/from.jpg",
+    "title": "Off Campus",
+    "image": "https://images.justwatch.com/poster/342690321/s332/off-campus.jpg",
     "provider": "Amazon Prime"
   },
   {
@@ -15,8 +15,18 @@
     "provider": "Netflix"
   },
   {
-    "title": "Off Campus",
-    "image": "https://images.justwatch.com/poster/342690321/s332/off-campus.jpg",
+    "title": "Erotic Stories",
+    "image": "https://images.justwatch.com/poster/309075113/s332/erotic-stories.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "Adarsh Baal Vidyalaya",
+    "image": "https://images.justwatch.com/poster/347473839/s332/adarsh-baal-vidyalaya.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "FROM",
+    "image": "https://images.justwatch.com/poster/344518661/s332/from.jpg",
     "provider": "Amazon Prime"
   },
   {
@@ -25,28 +35,18 @@
     "provider": "JioHotstar"
   },
   {
-    "title": "Mastram",
-    "image": "https://images.justwatch.com/poster/320919938/s332/mastram.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
-    "title": "Erotic Stories",
-    "image": "https://images.justwatch.com/poster/309075113/s332/erotic-stories.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
     "title": "Lock Upp",
     "image": "https://images.justwatch.com/poster/321076305/s332/lock-upp.jpg",
     "provider": "Netflix"
   },
   {
-    "title": "Obsession",
-    "image": "https://images.justwatch.com/poster/343088830/s332/obsession-2026.jpg",
-    "provider": "Amazon Prime"
+    "title": "Musafir Cafe",
+    "image": "https://images.justwatch.com/poster/347076164/s332/musafir-cafe.jpg",
+    "provider": "Netflix"
   },
   {
-    "title": "Now & Later",
-    "image": "https://images.justwatch.com/poster/332415494/s332/now-and-later.jpg",
+    "title": "Obsession",
+    "image": "https://images.justwatch.com/poster/343088830/s332/obsession-2026.jpg",
     "provider": "Amazon Prime"
   }
 ]
