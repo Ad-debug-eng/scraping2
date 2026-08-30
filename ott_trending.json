@@ -1,22 +1,7 @@
 [
   {
-    "title": "Musafir Cafe",
-    "image": "https://images.justwatch.com/poster/347076164/s332/musafir-cafe.jpg",
-    "provider": "Netflix"
-  },
-  {
-    "title": "Adarsh Baal Vidyalaya",
-    "image": "https://images.justwatch.com/poster/347473839/s332/adarsh-baal-vidyalaya.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
     "title": "Erotic Stories",
     "image": "https://images.justwatch.com/poster/309075113/s332/erotic-stories.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
-    "title": "Spider-Man: Brand New Day",
-    "image": "https://images.justwatch.com/poster/345865773/s332/spider-man-brand-new-day.jpg",
     "provider": "Amazon Prime"
   },
   {
@@ -25,28 +10,43 @@
     "provider": "Amazon Prime"
   },
   {
-    "title": "India's Got Latent",
-    "image": "https://images.justwatch.com/poster/346578546/s332/indias-got-latent.jpg",
+    "title": "Musafir Cafe",
+    "image": "https://images.justwatch.com/poster/347076164/s332/musafir-cafe.jpg",
     "provider": "Netflix"
   },
   {
-    "title": "House of the Dragon",
-    "image": "https://images.justwatch.com/poster/301444667/s332/house-of-the-dragon.jpg",
+    "title": "Spider-Man: Brand New Day",
+    "image": "https://images.justwatch.com/poster/347907260/s332/spider-man-brand-new-day.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "Adarsh Baal Vidyalaya",
+    "image": "https://images.justwatch.com/poster/347473839/s332/adarsh-baal-vidyalaya.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "Reacher",
+    "image": "https://images.justwatch.com/poster/348320182/s332/jack-reacher.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "Operation Safed Sagar: The Untold Story of the Kargil War",
+    "image": "https://images.justwatch.com/poster/349702970/s332/operation-safed-sagar.jpg",
+    "provider": "Netflix"
+  },
+  {
+    "title": "Bigg Boss",
+    "image": "https://images.justwatch.com/poster/349220148/s332/bigg-boss.jpg",
     "provider": "JioHotstar"
   },
   {
     "title": "Off Campus",
-    "image": "https://images.justwatch.com/poster/345676894/s332/off-campus.jpg",
+    "image": "https://images.justwatch.com/poster/345750510/s332/off-campus.jpg",
     "provider": "Amazon Prime"
   },
   {
-    "title": "Now & Later",
-    "image": "https://images.justwatch.com/poster/332415494/s332/now-and-later.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
-    "title": "Bigg Boss",
-    "image": "https://images.justwatch.com/poster/310323106/s332/bigg-boss.jpg",
-    "provider": "JioHotstar"
+    "title": "India's Got Latent",
+    "image": "https://images.justwatch.com/poster/346578546/s332/indias-got-latent.jpg",
+    "provider": "Netflix"
   }
 ]
