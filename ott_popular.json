@@ -6,17 +6,12 @@
   },
   {
     "title": "The Boys",
-    "image": "https://images.justwatch.com/poster/343114850/s332/the-boys.jpg",
+    "image": "https://images.justwatch.com/poster/318597086/s332/the-boys.jpg",
     "provider": "Amazon Prime"
   },
   {
     "title": "Panchayat",
     "image": "https://images.justwatch.com/poster/316699631/s332/panchayat.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
-    "title": "Farzi",
-    "image": "https://images.justwatch.com/poster/320936758/s332/farzi.jpg",
     "provider": "Amazon Prime"
   },
   {
@@ -31,7 +26,7 @@
   },
   {
     "title": "Scam 1992: The Harshad Mehta Story",
-    "image": "https://images.justwatch.com/poster/318288891/s332/scam-1992.jpg",
+    "image": "https://images.justwatch.com/poster/295771493/s332/scam-1992.jpg",
     "provider": "SonyLIV"
   },
   {
@@ -47,6 +42,11 @@
   {
     "title": "Special Ops",
     "image": "https://images.justwatch.com/poster/331594845/s332/special-ops.jpg",
+    "provider": "JioHotstar"
+  },
+  {
+    "title": "Friends",
+    "image": "https://images.justwatch.com/poster/300603462/s332/friends.jpg",
     "provider": "JioHotstar"
   }
 ]

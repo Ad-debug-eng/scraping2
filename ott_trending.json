@@ -5,26 +5,6 @@
     "provider": "Amazon Prime"
   },
   {
-    "title": "Erotic Stories",
-    "image": "https://images.justwatch.com/poster/309075113/s332/erotic-stories.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
-    "title": "Reacher",
-    "image": "https://images.justwatch.com/poster/348320182/s332/jack-reacher.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
-    "title": "Musafir Cafe",
-    "image": "https://images.justwatch.com/poster/347076164/s332/musafir-cafe.jpg",
-    "provider": "Netflix"
-  },
-  {
-    "title": "Operation Safed Sagar: The Untold Story of the Kargil War",
-    "image": "https://images.justwatch.com/poster/349702970/s332/operation-safed-sagar.jpg",
-    "provider": "Netflix"
-  },
-  {
     "title": "Mirzapur",
     "image": "https://images.justwatch.com/poster/340839284/s332/mirzapur.jpg",
     "provider": "Amazon Prime"
@@ -35,18 +15,38 @@
     "provider": "JioHotstar"
   },
   {
+    "title": "Erotic Stories",
+    "image": "https://images.justwatch.com/poster/309075113/s332/erotic-stories.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "Reacher",
+    "image": "https://images.justwatch.com/poster/326970737/s332/jack-reacher.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
     "title": "Lanterns",
-    "image": "https://images.justwatch.com/poster/348909475/s332/lanterns.jpg",
+    "image": "https://images.justwatch.com/poster/347103107/s332/lanterns.jpg",
     "provider": "JioHotstar"
   },
   {
-    "title": "Spider-Man: Brand New Day",
-    "image": "https://images.justwatch.com/poster/346670017/s332/spider-man-brand-new-day.jpg",
-    "provider": "Amazon Prime"
+    "title": "Musafir Cafe",
+    "image": "https://images.justwatch.com/poster/347076164/s332/musafir-cafe.jpg",
+    "provider": "Netflix"
   },
   {
     "title": "India's Got Latent",
     "image": "https://images.justwatch.com/poster/346578546/s332/indias-got-latent.jpg",
     "provider": "Netflix"
+  },
+  {
+    "title": "Off Campus",
+    "image": "https://images.justwatch.com/poster/342690321/s332/off-campus.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "Hanuman Ansh",
+    "image": "https://images.justwatch.com/poster/354297108/s332/hanuman-ansh-2026.jpg",
+    "provider": "Amazon Prime"
   }
 ]
