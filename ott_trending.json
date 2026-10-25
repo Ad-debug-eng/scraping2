@@ -10,13 +10,23 @@
     "provider": "Amazon Prime"
   },
   {
+    "title": "Sapio",
+    "image": "https://images.justwatch.com/poster/314225969/s332/sapio.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
     "title": "Mirzapur",
     "image": "https://images.justwatch.com/poster/340839284/s332/mirzapur.jpg",
     "provider": "Amazon Prime"
   },
   {
-    "title": "Sapio",
-    "image": "https://images.justwatch.com/poster/314225969/s332/sapio.jpg",
+    "title": "Black Clover",
+    "image": "https://images.justwatch.com/poster/289760864/s332/black-clover.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "Rise and Fall",
+    "image": "https://images.justwatch.com/poster/335904071/s332/rise-and-fall.jpg",
     "provider": "Amazon Prime"
   },
   {
@@ -25,28 +35,18 @@
     "provider": "Amazon Prime"
   },
   {
-    "title": "India's Got Latent",
-    "image": "https://images.justwatch.com/poster/346578546/s332/indias-got-latent.jpg",
-    "provider": "Netflix"
-  },
-  {
-    "title": "Black Clover",
-    "image": "https://images.justwatch.com/poster/289760864/s332/black-clover.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
-    "title": "Waiting Hai",
-    "image": "https://images.justwatch.com/poster/354552368/s332/waiting-hai.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
     "title": "Off Campus",
     "image": "https://images.justwatch.com/poster/342690321/s332/off-campus.jpg",
     "provider": "Amazon Prime"
   },
   {
-    "title": "Lanterns",
-    "image": "https://images.justwatch.com/poster/347103107/s332/lanterns.jpg",
-    "provider": "JioHotstar"
+    "title": "A Good Lawyer's Wife",
+    "image": "https://images.justwatch.com/poster/305938767/s332/a-good-lawyers-wife.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
+    "title": "Erotic Stories",
+    "image": "https://images.justwatch.com/poster/354635588/s332/erotic-stories.jpg",
+    "provider": "Amazon Prime"
   }
 ]
