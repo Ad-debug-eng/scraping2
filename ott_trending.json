@@ -25,6 +25,21 @@
     "provider": "Amazon Prime"
   },
   {
+    "title": "Akka",
+    "image": "https://images.justwatch.com/poster/324986110/s332/akka-2026.jpg",
+    "provider": "Netflix"
+  },
+  {
+    "title": "VisionQuest",
+    "image": "https://images.justwatch.com/poster/348281318/s332/visionquest.jpg",
+    "provider": "JioHotstar"
+  },
+  {
+    "title": "Ramayana: Rise of a Legend",
+    "image": "https://images.justwatch.com/poster/356304895/s332/ramayana.jpg",
+    "provider": "Amazon Prime"
+  },
+  {
     "title": "A Good Lawyer's Wife",
     "image": "https://images.justwatch.com/poster/305938767/s332/a-good-lawyers-wife.jpg",
     "provider": "Amazon Prime"
@@ -32,21 +47,6 @@
   {
     "title": "Black Clover",
     "image": "https://images.justwatch.com/poster/289760864/s332/black-clover.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
-    "title": "Rise and Fall",
-    "image": "https://images.justwatch.com/poster/335904071/s332/rise-and-fall.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
-    "title": "Off Campus",
-    "image": "https://images.justwatch.com/poster/342690321/s332/off-campus.jpg",
-    "provider": "Amazon Prime"
-  },
-  {
-    "title": "Erotic Stories",
-    "image": "https://images.justwatch.com/poster/354635588/s332/erotic-stories.jpg",
     "provider": "Amazon Prime"
   }
 ]
